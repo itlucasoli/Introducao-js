@@ -17,7 +17,20 @@ Sua criação se deve pela função `confirm()`, além de receber o como paramet
 Diferentemente de `alert()` e `confirm()`, a função `prompt()` possui em sua estrutura um caixa de input que retornará ao usuário uma `string`. Seu parâmetro também será uma `string()`
 
 ## Método querySelector
-o método `querySelector()` e `querySelectorAll()` nos dará acesso a DOM, desse modo podemos selecionar um elemento presente no html passando como parâmetro identificadores, classes e tags.
+o método `querySelector()` e `querySelectorAll()` nos dará acesso a DOM, desse modo podemos selecionar um elemento presente no HTML passando como parâmetro identificadores, classes e tags. 
+Essa função também trará um retorno, que terá tipo HTML.
+Esse método deverá ser antecedido pelo local onde se encontra o que deseja ser selecionado.
+
+### Diferenças entre `querySelector()` e `querySelectorAll()`
+`querySelector()` selecionará apenas o primeiro com o seletor indicado como parâmetro, já o `querySelectorAll()` guardará todos os elementos com o seletor indicado em um array.
+
+Ex1:
+```javascript
+var nome = document.querySelectorAll(".nome")
 ```
-var nome = document.querySelector("#info-nome")
+
+Ex2:
+```javascript
+var pessoasValidas = document.querySelector(".pessoas-validas")
+var nome = pessoasValidas.querySelector(".nome")
 ```
