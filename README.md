@@ -36,4 +36,5 @@ var nome = pessoasValidas.querySelector(".nome")
 ```
 
 ### Como guardar e modificar um texto dentro de uma tag?
+Quando selecionamos um elemento e o colocamos em uma variável, podemos ter acesso a algumas propriedades do html
 
