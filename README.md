@@ -21,7 +21,7 @@ o método `querySelector()` e `querySelectorAll()` nos dará acesso a DOM, desse
 Essa função também trará um retorno, que terá tipo HTML.
 Esse método deverá ser antecedido pelo local onde se encontra o que deseja ser selecionado.
 
-### Diferenças entre `querySelector()` e `querySelectorAll()`
+### Diferença entre `querySelector()` e `querySelectorAll()`
 `querySelector()` selecionará apenas o primeiro com o seletor indicado como parâmetro, já o `querySelectorAll()` guardará todos os elementos com o seletor indicado em um array.
 
 Ex1:
@@ -34,3 +34,6 @@ Ex2:
 var pessoasValidas = document.querySelector(".pessoas-validas")
 var nome = pessoasValidas.querySelector(".nome")
 ```
+
+### Como guardar e modificar um texto dentro de uma tag?
+
